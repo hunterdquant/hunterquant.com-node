@@ -1,0 +1,94 @@
+@font-face {
+  font-family: Glacial;
+  src: url("../fonts/glacialindifference-bold-webfont.woff2") format("woff2");
+  src: url("../fonts/glacialindifference-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: bold; }
+@font-face {
+  font-family: Glacial;
+  src: url("../fonts/glacialindifference-italic-webfont.woff2") format("woff2");
+  src: url("../fonts/glacialindifference-italic-webfont.woff") format("woff");
+  font-weight: italic;
+  font-style: italic; }
+@font-face {
+  font-family: Glacial;
+  src: url("../fonts/glacialindifference-regular-webfont.woff2") format("woff2");
+  src: url("../fonts/glacialindifference-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/raleway-bold-webfont.woff2") format("woff2");
+  src: url("../fonts/raleway-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: bold; }
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/raleway-italic-webfont.woff2") format("woff2");
+  src: url("../fonts/raleway-italic-webfont.woff") format("woff");
+  font-weight: italic;
+  font-style: italic; }
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/raleway-regular-webfont.woff2") format("woff2");
+  src: url("../fonts/raleway-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Glacial;
+  src: url("../fonts/GlacialIndifference-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: bold; }
+@font-face {
+  font-family: Glacial;
+  src: url("../fonts/GlacialIndifference-Italic.otf") format("opentype");
+  font-weight: italic;
+  font-style: italic; }
+@font-face {
+  font-family: Glacial;
+  src: url("../fonts/GlacialIndifference-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: bold; }
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Italic.ttf") format("truetype");
+  font-weight: italic;
+  font-style: italic; }
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background-color: #2F2F2F;
+  padding: 50px;
+  font: 14px; }
+
+a {
+  color: #00B7FF; }
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: Glacial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #268BD2; }
+
+p {
+  font-family: Raleway, serif;
+  font-weight: normal;
+  color: #E3E3E3; }
+
+.head {
+  margin-left: 15px;
+  display: inline-block; }
+
+img {
+  display: inline-block;
+  width: 20%;
+  height: 20%; }
+
+/*# sourceMappingURL=master.css.map */
