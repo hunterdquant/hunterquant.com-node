@@ -1,0 +1,9 @@
+"Perfecting oneself is as much unlearning as it is learning."" - Edsger W. Dijkstra
+“I think Microsoft named .Net so it wouldn’t show up in a Unix directory listing.” - Oktal
+"The use of COBOL cripples the mind; its teaching should therefore be regarded as a criminal offense." - E.W. Dijkstra
+"In the one and only true way. The object-oriented version of 'Spaghetti code' is, of course, 'Lasagna code'. (Too many layers)." - Roberto Waltman.
+Premature optimization is the root of all evil in programming. - C.A.R. Hoare
+Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live. - M. Golding
+"Measuring programming progress by lines of code is like measuring aircraft building progress by weight." - Bill Gates
+“To iterate is human, to recurse divine.” - L. Peter Deutsch
+"Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program." - Linus Torvalds

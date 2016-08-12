@@ -7,12 +7,10 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 
-// Set constants to global score for reuse. 
+// Set constants to global score for reuse.
 global.constants = require('./constants');
 
 var app = express();
-
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
