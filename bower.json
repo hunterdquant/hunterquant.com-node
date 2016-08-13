@@ -1,0 +1,24 @@
+{
+  "name": "hunterquant.com-node",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Hunter Quant <hunterdquant@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "typesettings": "^3.0.1"
+  },
+  "devDependencies": {
+    "typesettings": "^3.0.1"
+  }
+}

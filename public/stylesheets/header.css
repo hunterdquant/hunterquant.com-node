@@ -71,9 +71,11 @@ header {
     width: 32vh;
     height: 32vh; }
   header #name {
-    font-size: 3.5em; }
+    font-size: 3.5em;
+    color: #268BD2; }
   header #header-text {
     margin-top: -32px;
+    color: #E3E3E3;
     text-align: center; }
 
 /*# sourceMappingURL=header.css.map */

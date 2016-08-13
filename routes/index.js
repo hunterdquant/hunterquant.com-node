@@ -1,9 +1,8 @@
-var express = require('express');
-var router = express.Router();
+exports.index = function(req, res) {
+  res.render('index', { title: 'Hunter Quant' });
+};
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: constants.TITLE_BASE + 'Home' });
-});
-
-module.exports = router;
+exports.partials = function(req, res) {
+    console.log(req.params.name);
+    res.render('partials/' + req.params.name);
+};
