@@ -1,10 +1,11 @@
 link(rel='stylesheet', href='/stylesheets/header.css')
-header(class='container-fluid center header')
+header(class='container container-fluid center')
   img(id='logo' class='center' src='images/logo_white.svg')
-  #header-text.container.container-underlined
-    h2(id='name' class='center') Hunter Quant
-    h3(id='byline') What's Happening At HQ?
-  #quote-container.container.container-underlined
-    #centered-quote
-      p(id='quote')
-      p(id='author')
+  #header-content.container.container-fluid
+    #header-text.container.container-underlined
+      h2(id='name') Hunter Quant
+      h3(id='byline') What's Happening At HQ?
+    #quote-container.container.container-underlined
+      #centered-quote
+        p(id='quote')
+        p(id='author')
