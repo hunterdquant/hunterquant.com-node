@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="logo_black.svg">
+   sodipodi:docname="logo_white.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -125,10 +125,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="192.52822"
+     inkscape:cx="108.24251"
      inkscape:cy="164.56467"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
@@ -155,7 +155,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -164,7 +164,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-674.36189)"
-     style="display:inline">
+     style="display:none">
     <path
        sodipodi:type="star"
        style="fill:url(#linearGradient6694);fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -191,7 +191,7 @@
        sodipodi:cy="405.86456"
        sodipodi:rx="163.64471"
        sodipodi:ry="163.64471"
-       d="m 452.54834,405.86456 a 163.64471,163.64471 0 1 1 -327.28943,0 163.64471,163.64471 0 1 1 327.28943,0 z"
+       d="m 452.54834,405.86456 c 0,90.37848 -73.26623,163.64472 -163.64471,163.64472 -90.37848,0 -163.64472,-73.26624 -163.64472,-163.64472 0,-90.37848 73.26624,-163.64471 163.64472,-163.64471 90.37848,0 163.64471,73.26623 163.64471,163.64471 z"
        transform="translate(196.80788,452.29092)" />
     <path
        sodipodi:type="arc"
@@ -201,7 +201,7 @@
        sodipodi:cy="405.86456"
        sodipodi:rx="163.64471"
        sodipodi:ry="163.64471"
-       d="m 452.54834,405.86456 a 163.64471,163.64471 0 1 1 -327.28943,0 163.64471,163.64471 0 1 1 327.28943,0 z"
+       d="m 452.54834,405.86456 c 0,90.37848 -73.26623,163.64472 -163.64471,163.64472 -90.37848,0 -163.64472,-73.26624 -163.64472,-163.64472 0,-90.37848 73.26624,-163.64471 163.64472,-163.64471 90.37848,0 163.64471,73.26623 163.64471,163.64471 z"
        transform="matrix(0.73585274,0,0,0.73585274,272.55462,561.31037)" />
     <path
        sodipodi:type="arc"
@@ -211,7 +211,7 @@
        sodipodi:cy="405.86456"
        sodipodi:rx="163.64471"
        sodipodi:ry="163.64471"
-       d="m 452.54834,405.86456 a 163.64471,163.64471 0 1 1 -327.28943,0 163.64471,163.64471 0 1 1 327.28943,0 z"
+       d="m 452.54834,405.86456 c 0,90.37848 -73.26623,163.64472 -163.64471,163.64472 -90.37848,0 -163.64472,-73.26624 -163.64472,-163.64472 0,-90.37848 73.26624,-163.64471 163.64472,-163.64471 90.37848,0 163.64471,73.26623 163.64471,163.64471 z"
        transform="matrix(0.39982888,0,0,0.39982888,369.78108,696.29751)" />
     <text
        xml:space="preserve"
@@ -255,7 +255,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="White"
-     style="display:none">
+     style="display:inline">
     <path
        sodipodi:type="star"
        style="fill:url(#linearGradient6744);fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -306,7 +306,7 @@
        transform="matrix(0.39982888,0,0,0.39982888,371.72905,22.710475)" />
     <text
        xml:space="preserve"
-       style="font-size:139.34649658px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+       style="font-size:139.34649657999997885px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Glacial Indifference;-inkscape-font-specification:Glacial Indifference Bold;font-stretch:normal;font-variant:normal"
        x="-28.498756"
        y="368.63232"
        id="text6715-2"
@@ -315,6 +315,6 @@
          id="tspan6717-3"
          x="-28.498756"
          y="368.63232"
-         style="font-size:501.64736938px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Roboto;-inkscape-font-specification:Roboto Bold">H</tspan></text>
+         style="font-size:501.64736937999992961px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Glacial Indifference;-inkscape-font-specification:Glacial Indifference Bold">H</tspan></text>
   </g>
 </svg>

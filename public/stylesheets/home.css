@@ -64,16 +64,5 @@
   src: url("../fonts/Raleway-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-#main {
-  margin-top: 8px; }
-  #main .quote-container {
-    width: 50%; }
-    #main .quote-container #quote {
-      font-size: 1.5em;
-      font-style: italic;
-      color: #73B5E4; }
-    #main .quote-container #author {
-      font-size: 1.5em;
-      color: #268BD2; }
 
 /*# sourceMappingURL=home.css.map */

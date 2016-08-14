@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['ngRoute', 'ngResource']);
+var app = angular.module('myApp', ['ngRoute', 'ngResource', 'ngAnimate']);
 app.config(function($routeProvider) {
   $routeProvider.
     when('/', {
@@ -16,10 +16,13 @@ app.config(function($routeProvider) {
     when('/contact', {
       templateUrl: 'partials/contact'
     }).
-    when('/resume', {
-      templateUrl: 'partials/resume'
-    }).
     otherwise({
       redirectTo: '/'
+    });
+});
+
+app.controller('ctrl', function($scope, $rootScope){
+	  $rootScope.$on('$routeChangeStart', function(event, currRoute, prevRoute){
+  		$rootScope.animation = currRoute.animation;
     });
 });

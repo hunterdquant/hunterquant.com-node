@@ -64,43 +64,12 @@
   src: url("../fonts/Raleway-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-header {
-  width: 90%; }
-  header #logo {
-    display: block;
-    width: 32vh;
-    height: 32vh; }
-  header #name {
-    font-size: 3.5em;
-    color: #268BD2;
-    padding-bottom: 5px; }
-  header #byline {
-    font-family: Raleway, serif; }
-  header #header-text {
-    margin-top: -32px;
-    color: #E3E3E3;
-    text-align: center;
-    padding-bottom: 10px; }
-  header #quote-container {
-    display: flex;
-    min-height: 150px;
-    align-items: center;
-    justify-content: center; }
-    header #quote-container #centered-quote {
-      vertical-align: middle;
-      min-width: 70%; }
-      header #quote-container #centered-quote #quote {
-        align-self: flex-start;
-        font-size: 1.5em;
-        font-style: italic;
-        color: #73B5E4;
-        padding: 0;
-        margin: 0; }
-      header #quote-container #centered-quote #author {
-        align-self: flex-end;
-        font-size: 1.5em;
-        color: #268BD2;
-        padding: 0;
-        margin: 0; }
+#footer-text {
+  font-family: Raleway, serif;
+  font-style: italic;
+  font-size: 1em;
+  text-align: center;
+  color: #E3E3E3;
+  margin-bottom: 5px; }
 
-/*# sourceMappingURL=header.css.map */
+/*# sourceMappingURL=footer.css.map */

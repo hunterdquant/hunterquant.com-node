@@ -254,4 +254,44 @@ p {
   display: block;
   margin: 0 auto; }
 
+.container-underlined {
+  border-bottom: 2px solid #097ACA; }
+
+.view-body {
+  padding: 0;
+  margin-top: 20px; }
+
+.view-fade {
+  padding: 0;
+  margin: 0; }
+
+.animation-container {
+  position: relative; }
+
+.view-fade.ng-enter {
+  position: absolute;
+  transition: all 1.5s;
+  opacity: 0;
+  left: -100%; }
+
+.view-fade.ng-enter-active {
+  transition: all 1.5s;
+  position: absolute;
+  opacity: 1;
+  left: 15px; }
+
+.view-fade.ng-leave {
+  transition: all linear 1s;
+  position: absolute;
+  opacity: 1;
+  left: 15px;
+  width: 100%; }
+
+.view-fade.ng-leave-active {
+  transition: all linear 1s;
+  position: absolute;
+  opacity: 0;
+  left: 100%;
+  width: 100%; }
+
 /*# sourceMappingURL=master.css.map */

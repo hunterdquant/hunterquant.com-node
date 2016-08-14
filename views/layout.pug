@@ -2,33 +2,21 @@ doctype html
 html
   head
     title= title
-    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin="anonymous")
-    link(rel='stylesheet', href='/stylesheets/master.css')
-    base(href="/")
     script(type='text/javascript' src='javascripts/quotes.js')
     script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js")
     script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js")
     script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-resource.js")
+    script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.js")
     script(src='javascripts/app.js')
-  body(onload='getQuote()' ng-app='myApp')
-    link(rel='stylesheet', href='/stylesheets/home.css')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u", crossorigin="anonymous")
+    link(rel='stylesheet', href='/stylesheets/master.css')
+    base(href="/")
+    meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0")
+
+  body(onload='getQuote()', ng-app='myApp')
     include header.pug
-    div(id='main' class='center')
-      div(class='quote-container container')
-        p(id='quote')
-        p(id='author')
-      ul
-        li
-          a(href='#/skills') skills
-        li
-          a(href='#/projects') projects
-        li
-          a(href='#/contact') contact
-        li
-          a(href='#/about') about
-        li
-          a(href='#/resume') resume
-        li
-          a(href='#/home') home
-      div(ng-view)
+    include nav.pug
+    .animation-container.container.container-fluid
+      div(class='view-fade' ng-view)
         block view-container
+    include footer.pug
