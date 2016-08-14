@@ -153,9 +153,6 @@ p {
   padding-top: 0;
   padding-bottom: 0;
   max-width: 36em; }
-  @media (min-width: 43.75em) {
-    p {
-      text-align: justify; } }
 
 p + p {
   margin-top: -1.5em;
@@ -284,14 +281,12 @@ p {
   transition: all linear 1s;
   position: absolute;
   opacity: 1;
-  left: 15px;
-  width: 100%; }
+  left: 15px; }
 
 .view-fade.ng-leave-active {
   transition: all linear 1s;
   position: absolute;
   opacity: 0;
-  left: 100%;
-  width: 100%; }
+  left: 100%; }
 
 /*# sourceMappingURL=master.css.map */

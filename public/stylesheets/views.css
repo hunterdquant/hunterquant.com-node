@@ -64,18 +64,11 @@
   src: url("../fonts/Raleway-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
-.footer {
-  background-color: #222222;
-  -webkit-box-shadow: 0px -2px 16px 0px #73B5E4;
-  -moz-box-shadow: 0px -2px 16px 0px #73B5E4;
-  box-shadow: 0px -2px 16px 0px #73B5E4; }
+.view-body h1 {
+  color: #73B5E4; }
+.view-body h2 {
+  color: #499EDA; }
+.view-body h3 {
+  color: #097ACA; }
 
-#footer-text {
-  font-family: Raleway, serif;
-  font-style: italic;
-  font-size: 1em;
-  text-align: center;
-  color: #E3E3E3;
-  margin: 5px 0; }
-
-/*# sourceMappingURL=footer.css.map */
+/*# sourceMappingURL=views.css.map */
